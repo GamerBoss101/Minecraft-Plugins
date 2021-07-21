@@ -1,0 +1,11 @@
+name: MobKillEffects
+version: 1.4
+author: GamerBoss101
+main: org.bosstop.mobkilleffects.Main
+description: Every Mob you kill gives you a random effect 
+
+commands:
+  modkilleffect:
+    aliases: [mke]
+    description: Base Command of the Plugin
+    
