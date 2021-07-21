@@ -1,0 +1,17 @@
+# ======================================================
+#  Fall Enchants v1.0
+#
+#  Author: GamerBoss101
+#
+#  Description: If you take Fall damage you get Kool enchants.
+#
+# ======================================================
+
+# Do you want your full inventory to be enchanted ? . . . IF YES set to => true
+enchantfullinventory: true
+
+# Do you want there to be a limit to the amount of enchantment you have on an Item ? . . . IF NO set to => false
+enchantlimit: true
+
+# This is the amount of enchantment you can have perItem if the "enchantlimit" is set to => true
+maxenchant: 12

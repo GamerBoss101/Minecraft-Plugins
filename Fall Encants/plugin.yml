@@ -1,0 +1,5 @@
+name: FallEnchants
+version: 1.0
+author: GamerBoss101
+main: org.bosstop.fallenchant.Main
+description: If you take Fall damage you get Kool enchants
