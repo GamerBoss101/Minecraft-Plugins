@@ -1,7 +1,7 @@
-package org.bosstop.mobkilleffects;
+package ml.bosstop.mobkilleffects;
 
-import org.bosstop.mobkilleffects.commands.BaseCommands;
-import org.bosstop.mobkilleffects.mobkill.KillListener;
+import ml.bosstop.mobkilleffects.commands.BaseCommands;
+import ml.bosstop.mobkilleffects.mobkill.KillListener;
 import org.bukkit.ChatColor;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;

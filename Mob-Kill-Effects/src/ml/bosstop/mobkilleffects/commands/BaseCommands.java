@@ -1,8 +1,8 @@
-package org.bosstop.mobkilleffects.commands;
+package ml.bosstop.mobkilleffects.commands;
 
 import java.util.Collection;
 
-import org.bosstop.mobkilleffects.Main;
+import ml.bosstop.mobkilleffects.Main;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -12,6 +12,7 @@ import org.bukkit.potion.PotionEffect;
 
 public class BaseCommands implements CommandExecutor {
 	
+	@SuppressWarnings("unused")
 	private Main plugin;
 	
 	public BaseCommands(Main plugin){

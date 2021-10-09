@@ -1,6 +1,6 @@
-package org.bosstop.fallenchant.Fall;
+package ml.bosstop.fallenchant.Fall;
 
-import org.bosstop.fallenchant.Main;
+import ml.bosstop.fallenchant.Main;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -138,5 +138,3 @@ public class FallListener implements Listener {
 
     }
 }
-
-

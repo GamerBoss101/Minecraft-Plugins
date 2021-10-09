@@ -1,6 +1,6 @@
-package org.bosstop.mobkilleffects.mobkill;
+package ml.bosstop.mobkilleffects.mobkill;
 
-import org.bosstop.mobkilleffects.Main;
+import ml.bosstop.mobkilleffects.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.LivingEntity;
