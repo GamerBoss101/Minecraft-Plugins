@@ -1,0 +1,12 @@
+name: DeathRun
+version: 1.0
+api-version: 1.18
+author: GamerBoss101
+website: sirblob.bosstop.ml
+main: ml.bosstop.deathrun.Main
+description: First one to Die Wins
+
+commands:
+  deathrun:
+    aliases: [dr]
+    description: Base Command of the Plugin

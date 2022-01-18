@@ -1,0 +1,29 @@
+package ml.bosstop.deathrun;
+
+import org.bukkit.ChatColor;
+// import org.bukkit.event.Listener;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Main extends JavaPlugin {
+	
+	String prefix = "&f[&4DeathRun&f] "; 
+	
+    @Override
+    public void onEnable() {
+    	
+    	System.out.println(ChatColor.translateAlternateColorCodes(
+    			'&', prefix + "&fStarting DeathRun v1.0\n"
+				+ prefix + "&fDeathRun Active"
+		));
+    }
+    
+    @Override
+    public void onDisable() {
+    	
+    	System.out.println(ChatColor.translateAlternateColorCodes(
+    			'&', prefix + "&fStarting DeathRun v1.0\n"
+				+ prefix + "&fDeathRun Disabled"
+		));
+
+    }
+}

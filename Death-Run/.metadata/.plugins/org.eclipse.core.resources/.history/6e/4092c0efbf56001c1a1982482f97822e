@@ -1,0 +1,5 @@
+name: DeathRun
+version: 1.0
+author: GamerBoss101
+main: ml.bosstop.deathrun.Main
+description: First one to Die to the Prompt Wins. 

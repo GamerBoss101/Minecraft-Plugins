@@ -1,0 +1,30 @@
+package ml.bosstop.deathrun.commands;
+
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+import ml.bosstop.deathrun.Main;
+
+public class commands implements CommandExecutor {
+	
+	@SuppressWarnings("unused")
+	private Main plugin;
+	
+	public commands(Main plugin){
+		this.plugin = plugin;
+		plugin.getCommand("deathrun").setExecutor(this);
+	}
+	
+	@Override
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+		
+		if(!(sender instanceof Player)){
+			sender.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix + "&cOnly players Can execute this command"));
+			return true;
+		}
+	}
+
+}
