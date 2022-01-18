@@ -37,7 +37,8 @@ public class Main extends JavaPlugin implements Listener {
 	@Override
     public void onDisable() {
     	
-		Util.console("&fDeathRun Disabled");
+		// log.info(ChatColor.translateAlternateColorCodes('&', Util.prefix() + "&fDisabling DeathRun v1.0"));
+		log.info(Util.Color(Util.prefix() + "&fDeathRun Disabled"));
 
     }
 }

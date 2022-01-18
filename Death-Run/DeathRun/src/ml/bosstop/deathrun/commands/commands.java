@@ -1,7 +1,5 @@
 package ml.bosstop.deathrun.commands;
 
-import java.util.Collection;
-
 import ml.bosstop.deathrun.Main;
 import ml.bosstop.deathrun.util.Util;
 
@@ -9,7 +7,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.potion.PotionEffect;
 
 public class commands implements CommandExecutor {
 	
@@ -43,8 +40,8 @@ public class commands implements CommandExecutor {
 				if(args[0].equalsIgnoreCase("help")) {
 					
 					p.sendMessage(Util.Color(
-							"&f==============================\n"
-							+ prefix + "&cHelp\n"
+							  "&f==============================\n"
+							+ "&aDeath Run &cHelp\n"
 							+ "&a/mke help : &6Gives help on commands.\n"
 							+ "&a/mke info : &6Shows plugin info and Version Number\n"
 							+ "&a/mke clear : &6Clears all Potion Effects\n"
@@ -53,25 +50,13 @@ public class commands implements CommandExecutor {
 					
 					return true;
 					
-				} else if(args[0].equalsIgnoreCase("clear")) {
-					
-					Collection<PotionEffect> effects = p.getActivePotionEffects();
-					
-					  effects.stream()
-					    .map(PotionEffect::getType)
-					    .forEach(p::removePotionEffect);
-					
-					p.sendMessage(Util.Color(prefix + "&aAll Effects have been cleared"));
-					
-					return true;
-					
 				} else if(args[0].equalsIgnoreCase("info")) {
 					
 					p.sendMessage(Util.Color(
-							"&f=========================\n"
-							+ "&aMob Kill Effects v1.4\n"
-							+ "&6Author: GamerBoss101\n"
-							+ "Description: Everytime you kill a Mob you get a potion\n"
+							  "&f=========================\n"
+							+ "&aDeath Run v1.0\n"
+							+ "&6Author: Sir_Blob_\n"
+							+ "Description: First one to Die Wins\n"
 							+ "effect\n"
 							+ "&f========================="
 							));
@@ -79,7 +64,7 @@ public class commands implements CommandExecutor {
 					return true;
 					
 				} else {
-					p.sendMessage(Util.Color(prefix + "&4Could not find that command. Use /mke help for commands"));
+					p.sendMessage(Util.Color(prefix + "&4Could not find that command. Use /dr help for commands"));
 				}	
 			}
 			return true;

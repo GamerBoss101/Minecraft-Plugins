@@ -6,7 +6,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/adith/Documents/Highschool_2021_/10th Grade/Tech/Dev/MC-plugin/Server JAR/craftbukkit-1.8-R0.1-SNAPSHOT-latest.jar"/>
-	<classpathentry kind="lib" path="C:/Users/adith/Documents/Highschool_2021_/10th Grade/Tech/Dev/MC-plugin/Dep/TagAPI.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

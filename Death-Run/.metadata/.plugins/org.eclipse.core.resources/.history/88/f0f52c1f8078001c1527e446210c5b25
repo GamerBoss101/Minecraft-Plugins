@@ -26,18 +26,17 @@ public class Main extends JavaPlugin implements Listener {
     	new commands(this);
     	
        this.getServer().getPluginManager().registerEvents(new onDeath(this), this);
-       this.getConfig().options().copyDefaults();
+        this.getConfig().options().copyDefaults();
         
-        Util.console("&fStarting DeathRun v1.0");
-        Util.console("&fDeathRun Active");
-        
+    	log.info(Util.Color(Util.prefix() + "&fStarting DeathRun v1.0"));
+    	log.info(Util.Color(Util.prefix() + "&fDeathRun Active"));
     }
-
 
 	@Override
     public void onDisable() {
     	
-		Util.console("&fDeathRun Disabled");
+		// log.info(ChatColor.translateAlternateColorCodes('&', Util.prefix() + "&fDisabling DeathRun v1.0"));
+		log.info(Util.Color(Util.prefix() + "&fDeathRun Disabled"));
 
     }
 }

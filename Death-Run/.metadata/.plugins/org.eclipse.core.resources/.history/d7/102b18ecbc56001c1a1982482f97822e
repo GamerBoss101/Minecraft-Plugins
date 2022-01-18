@@ -1,7 +1,0 @@
-package ml.bosstop.deathrun.util;
-
-public class Util {
-	public String prefix() {
-		return "&f[&4DeathRun&f] "; 
-	}
-}

@@ -2,6 +2,11 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.kitteh.tag.PlayerReceiveNameTagEvent"/>
     <fullyQualifiedTypeName name="ml.bosstop.deathrun.Listeners.Tag"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerJoinEvent"/>
     <fullyQualifiedTypeName name="ml.bosstop.deathrun.Main"/>
+    <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
+    <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
     <fullyQualifiedTypeName name="ml.bosstop.deathrun.util.Util"/>
 </qualifiedTypeNameHistroy>
