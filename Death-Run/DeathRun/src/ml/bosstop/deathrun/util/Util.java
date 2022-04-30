@@ -16,7 +16,7 @@ public class Util {
         return ChatColor.translateAlternateColorCodes('&', input);
     }
     public static void console(String input) {
-    	log.info(Color(prefix() + " " + input));
+    	log.info(Color(prefix() + input));
     }
     
 }

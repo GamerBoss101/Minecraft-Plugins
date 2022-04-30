@@ -1,0 +1,15 @@
+name: Core
+version: 1.5
+api-version: 1.18
+author: GamerBoss101
+website: sirblob.bosstop.ml
+main: ml.bosstop.core.Main
+description: SMP Core
+
+commands:
+  tpa:
+    aliases: [tpa]
+    description: Base tp Command of the Plugin
+  rule:
+    aliases: [rules]
+    description: rules Command of the Plugin

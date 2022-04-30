@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;DeathRun&apos;&#x0D;&#x0A;- Original project: &apos;DeathRun&apos;&#x0D;&#x0A;- Original element: &apos;ml.bosstop.deathrun.Listeners.Tag.java&apos;" description="Delete element" element1="/src&lt;ml.bosstop.deathrun.Listeners{Tag.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1642523994905" subPackages="false" version="1.0"/>
+<refactoring comment="Move element &apos;plugin.yml&apos; to &apos;DeathRun&apos;&#x0D;&#x0A;- Original project: &apos;DeathRun&apos;&#x0D;&#x0A;- Destination element: &apos;DeathRun&apos;&#x0D;&#x0A;- Original element: &apos;plugin.yml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=DeathRun" element1="src/plugin.yml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1642527393514" units="0" version="1.0"/>
 </session>

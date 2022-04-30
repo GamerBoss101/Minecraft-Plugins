@@ -9,5 +9,8 @@
 	<classpathentry kind="lib" path="C:/Users/adith/Documents/Highschool_2021_/10th Grade/Tech/Github/Minecraft-Plugins/Dependents/nametagedit-4.5.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/adith/Documents/Highschool_2021_/10th Grade/Tech/Github/Minecraft-Plugins/Dependents/PowerRanks.jar"/>
 	<classpathentry kind="lib" path="C:/Users/adith/Documents/Highschool_2021_/10th Grade/Tech/Github/Minecraft-Plugins/Dependents/spigot-api-1.18.1-R0.1-20220114.000719-43.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adith/Documents/Highschool_2021_/10th Grade/English/Github/Minecraft-Plugins/Dependents/PowerRanks.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adith/Documents/Highschool_2021_/10th Grade/English/Github/Minecraft-Plugins/Dependents/spigot-api-1.18.1-R0.1-20220114.000719-43.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adith/Documents/Highschool_2021_/10th Grade/English/Github/Minecraft-Plugins/Dependents/nametagedit-4.5.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

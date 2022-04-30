@@ -6,7 +6,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import ml.bosstop.deathrun.Listeners.onDeath;
+import ml.bosstop.deathrun.listeners.onDeath;
 import ml.bosstop.deathrun.commands.commands;
 import ml.bosstop.deathrun.util.Util;
 

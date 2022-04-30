@@ -10,7 +10,6 @@ import org.bukkit.entity.Player;
 import com.nametagedit.plugin.NametagEdit;
 
 import nl.svenar.PowerRanks.api.PowerRanksAPI;
-import nl.svenar.PowerRanks.Data.PowerRanksChatColor;
 import nl.svenar.PowerRanks.addons.PowerRanksAddon;
 import nl.svenar.PowerRanks.addons.PowerRanksPlayer;
 
